@@ -42,8 +42,10 @@ pics/
 
 # Sync / local-only transfer config
 .rsyncignore
+scripts/
 
 # Legacy or non-source project artifacts
 develops/legacy_django/
+resc/
 team7_output/
 team7_output.zip
