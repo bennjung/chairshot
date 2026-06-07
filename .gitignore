@@ -1,0 +1,49 @@
+# Python cache/runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS / editor noise
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local runtime data
+db.sqlite3
+*.sqlite3
+*.db
+*.log
+*.log.csv
+posture_log.csv
+posture-log.csv
+posture.log.csv
+coord.csv
+kp_roi_log.csv
+roi_depth_log.csv
+kp_dp_angle.csv
+virtual_neck_log.csv
+turtleneck-test.csv
+
+# Generated screenshots/media captured on Raspberry Pi
+pics/
+*.png
+*.jpg
+*.jpeg
+
+# Sync / local-only transfer config
+.rsyncignore
+
+# Legacy or non-source project artifacts
+develops/legacy_django/
+team7_output/
+team7_output.zip
