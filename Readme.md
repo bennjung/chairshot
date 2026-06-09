@@ -43,6 +43,31 @@ Chairshot은 사용자의 앉은 자세를 실시간으로 감지하고, 자세 
 
 ## 2. Body
 
+### Quick Start
+
+Backend server:
+
+```bash
+python3 flask_server.py --host 0.0.0.0 --port 8800
+```
+
+Client with preview:
+
+```bash
+python3 posture_monitor.py \
+  --event-url http://127.0.0.1:8800/api/posture-events/
+```
+
+Client without preview:
+
+```bash
+python3 posture_monitor.py \
+  --no-preview \
+  --event-url http://127.0.0.1:8800/api/posture-events/
+```
+
+If the backend runs on another machine, replace `127.0.0.1` with the backend server IP.
+
 ### User Flow With LED
 
 1. 사용자가 의자에 바르게 앉은 상태에서 `posture_monitor.py`를 실행한다.
