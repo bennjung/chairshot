@@ -37,6 +37,10 @@ Chairshot은 사용자의 앉은 자세를 실시간으로 감지하고, 자세 
 | Database | SQLite3 |
 | Communication | HTTP POST event publishing |
 
+### Setup Guides
+
+- [Intel RealSense D435 installation on Raspberry Pi](./realsense%20installation.md)
+
 ## 2. Body
 
 ### User Flow With LED
@@ -140,4 +144,3 @@ Normal은 `turtle_neck`, `shoulder_tilt`, `out_of_range` 조건을 만족하지 
 | `posture/alerts.py` | LED state control |
 | `posture/event_publisher.py` | HTTP POST event publishing |
 | `flask_server.py` | Flask dashboard API and SQLite persistence |
-
