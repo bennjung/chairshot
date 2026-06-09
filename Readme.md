@@ -1,4 +1,4 @@
-# Chairshot README Draft
+# README
 
 ## 1. Intro
 
